@@ -72,7 +72,7 @@ const RegionCarousel = () => {
       <div className="mt-14 text-center">
         <Link href={`/regions/${regions[currentIndex].id}`}>
           <button className="bg-[#000000] mr-8 text-white px-12 py-4 rounded-full text-lg font-semibold hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105">
-            Batafsil ma'lumot
+            Batafsil ma&apos;lumot
           </button>
         </Link>
       </div>

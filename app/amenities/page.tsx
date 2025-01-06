@@ -3,7 +3,7 @@ import Image from 'next/image'
 const AmenitiesPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">O'zbekistonni aylanish uchun qulayliklar</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">O&apos;zbekistonni aylanish uchun qulayliklar</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -20,7 +20,7 @@ const AmenitiesPage = () => {
           <h2 className="text-2xl font-semibold mb-4">Yashash</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>Zamonaviy mehmonxonalar</li>
-            <li>An'anaviy mehmondo'stlik uylari</li>
+            <li>An&apos;anaviy mehmondo&apos;stlik uylari</li>
             <li>Qulay hostellar</li>
             <li>Yurtalar va chodir lagerlar</li>
           </ul>
@@ -37,31 +37,31 @@ const AmenitiesPage = () => {
         </div>
         
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-2xl font-semibold mb-4">Qo'shimcha xizmatlar</h2>
+          <h2 className="text-2xl font-semibold mb-4">Q&apos;shimcha xizmatlar</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>Malakali gid-tarjimonlar</li>
             <li>Sayohat agentliklari</li>
-            <li>Sug'urta xizmatlari</li>
+            <li>Sug&apos;urta xizmatlari</li>
             <li>Valuta ayirboshlash shoxobchalari</li>
           </ul>
         </div>
       </div>
       
       <div className="mt-12">
-        <h2 className="text-3xl font-semibold mb-6 text-center">Foydali ma'lumotlar</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-center">Foydali ma&apos;lumotlar</h2>
         <div className="bg-white rounded-lg shadow-md p-6">
           <ul className="list-disc list-inside space-y-4">
-            <li>Viza rejimi: Ko'p mamlakatlar fuqarolari uchun 30 kunlik vizasiz rejim joriy etilgan</li>
-            <li>Valyuta: O'zbekiston so'mi (UZS) - valuta ayirboshlash punktlari ko'p joylarda mavjud</li>
-            <li>Til: Davlat tili o'zbek tili, rus tili ham keng tarqalgan. Turistik joylarda ingliz tili ham ishlatiladi</li>
-            <li>Internet: Ko'plab mehmonxonalar va jamoat joylarida bepul Wi-Fi mavjud</li>
-            <li>Xavfsizlik: O'zbekiston sayyohlar uchun xavfsiz mamlakat hisoblanadi</li>
+            <li>Viza rejimi: Ko&apos;p mamlakatlar fuqarolari uchun 30 kunlik vizasiz rejim joriy etilgan</li>
+            <li>Valyuta: O&apos;zbekiston so&apos;mi (UZS) - valuta ayirboshlash punktlari ko&apos;p joylarda mavjud</li>
+            <li>Til: Davlat tili o&apos;zbek tili, rus tili ham keng tarqalgan. Turistik joylarda ingliz tili ham ishlatiladi</li>
+            <li>Internet: Ko&apos;plab mehmonxonalar va jamoat joylarida bepul Wi-Fi mavjud</li>
+            <li>Xavfsizlik: O&apos;zbekiston sayyohlar uchun xavfsiz mamlakat hisoblanadi</li>
           </ul>
         </div>
       </div>
       
       <div className="mt-12 text-center">
-        <p className="text-xl mb-4">O'zbekistonga tashrif buyuring va unutilmas sayohatdan bahramand bo'ling!</p>
+        <p className="text-xl mb-4">O&apos;zbekistonga tashrif buyuring va unutilmas sayohatdan bahramand bo&apos;ling!</p>
         <Image
           src="/images/uzbekistan-panorama.png"
           alt="O'zbekiston panoramasi"

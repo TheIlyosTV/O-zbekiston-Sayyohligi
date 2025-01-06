@@ -26,7 +26,7 @@ const Header = () => {
           href="/"
           className="text-2xl font-bold hover:text-accent transition duration-300"
         >
-          O'zbekiston Sayyohligi
+          O&apos;zbekiston Sayyohligi
         </Link>
         <div className="hidden md:flex space-x-4">
           {navItems.map((item) => (

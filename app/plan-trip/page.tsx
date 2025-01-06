@@ -143,7 +143,7 @@ const PlanTripPage = () => {
         </div>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
-            Tashrif buyurmoqchi bo'lgan viloyatlar
+            Tashrif buyurmoqchi bo&apos;lgan viloyatlar
           </label>
           <div className="grid grid-cols-2 gap-2">
             {[
@@ -179,7 +179,7 @@ const PlanTripPage = () => {
             className="block text-gray-700 text-sm font-bold mb-2"
             htmlFor="additionalInfo"
           >
-            Qo'shimcha ma'lumotlar
+            Qo&apos;shimcha ma&apos;lumotlar
           </label>
           <textarea
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

@@ -46,7 +46,7 @@ const cultureSections = [
 export default function CulturePage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">O'zbek madaniyati</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">O&apos;zbek madaniyati</h1>
       {cultureSections.map((section, index) => (
         <div
           key={index}
@@ -76,8 +76,8 @@ export default function CulturePage() {
         <ul className="list-disc list-inside space-y-2">
           <li>Sharq taronalari xalqaro musiqa festivali (Samarqand)</li>
           <li>Ipak va ziravorlar festivali (Buxoro)</li>
-          <li>Baxshi san'ati xalqaro festivali (Termiz)</li>
-          <li>Xalqaro hunarmandchilik festivali (Qo'qon)</li>
+          <li>Baxshi san&apos;ati xalqaro festivali (Termiz)</li>
+          <li>Xalqaro hunarmandchilik festivali (Qo&apos;qon)</li>
           <li>Boysun bahori etnomadaniy festivali (Surxondaryo)</li>
         </ul>
       </div>

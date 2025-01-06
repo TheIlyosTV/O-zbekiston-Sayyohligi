@@ -76,7 +76,7 @@ const dishes = [
 export default function Cuisine() {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-8 mx-4">O'zbek Milliy Taomlari</h1>
+      <h1 className="text-3xl font-bold mb-8 mx-4">O&apos;zbek Milliy Taomlari</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-4">
         {dishes.map((dish) => (
           <div

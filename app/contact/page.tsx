@@ -24,7 +24,7 @@ const ContactPage = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Biz bilan bog'laning</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Biz bilan bog&apos;laning</h1>
       <div className="max-w-2xl mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -80,11 +80,11 @@ const ContactPage = () => {
         </form>
       </div>
       <div className="max-w-2xl mx-auto mt-8">
-        <h2 className="text-2xl font-bold mb-4">Biz bilan bog'lanish uchun:</h2>
+        <h2 className="text-2xl font-bold mb-4">Biz bilan bog&apos;lanish uchun:</h2>
         <ul className="list-disc list-inside">
           <li>Telefon: +998 71 123 45 67</li>
           <li>Email: info@uzbekistantourism.uz</li>
-          <li>Manzil: Toshkent shahri, Amir Temur ko'chasi, 1-uy</li>
+          <li>Manzil: Toshkent shahri, Amir Temur ko&apos;chasi, 1-uy</li>
         </ul>
       </div>
     </div>

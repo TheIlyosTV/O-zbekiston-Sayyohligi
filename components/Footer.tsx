@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">
-              O'zbekiston Sayyohlik Salohiyati
+              O&apos;zbekiston Sayyohlik Salohiyati
             </h3>
             <p className="text-sm">
-              O'zbekistonning go'zal shaharlari, ziyoratgohlari va milliy
-              taomlari haqida ma'lumot
+              O&apos;zbekistonning go&apos;zal shaharlari, ziyoratgohlari va milliy
+              taomlari haqida ma&apos;lumot
             </p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
@@ -30,7 +30,7 @@ const Footer = () => {
                   href="/contact"
                   className="hover:text-accent transition duration-300"
                 >
-                  Bog'lanish
+                  Bog&apos;lanish
                 </Link>
               </li>
               <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                   href="/faq"
                   className="hover:text-accent transition duration-300"
                 >
-                  Ko'p So'raladigan Savollar
+                  Ko&apos;p So&apos;raladigan Savollar
                 </Link>
               </li>
             </ul>
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
           <p>
-            &copy; 2025 O'zbekiston Sayyohlik Salohiyati. Barcha huquqlar
+            &copy; 2025 O&apos;zbekiston Sayyohlik Salohiyati. Barcha huquqlar
             himoyalangan.
           </p>
         </div>

@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 // Leaflet default marker icon fix
-delete (L.Icon.Default.prototype as any)._getIconUrl;
+delete (L.Icon.Default.prototype as unknown as { _getIconUrl: unknown })._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: "/images/marker-icon-2x.png",
   iconUrl: "/images/marker-icon.png",
@@ -125,7 +125,7 @@ const regions = [
 ];
 
 const InteractiveMap: React.FC = () => {
-  const [selectedRegion, setSelectedRegion] = useState<number | null>(null);
+  const [selectedRegion] = useState<number | null>(null);
   return (
     <div className="w-full h-[600px] rounded-lg overflow-hidden shadow-lg">
       <MapContainer

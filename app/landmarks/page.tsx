@@ -136,8 +136,10 @@ export default function Landmarks() {
       <h1 className="text-3xl font-bold mb-8 mx-4">Ziyoratgohlar</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-4">
         {landmarks.map((landmark) => (
-          <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8 ">
-            {/* Rasm */}
+          <div
+            key={landmark.id}
+            className="bg-white rounded-lg shadow-md overflow-hidden mb-8 "
+          >
             <div className="relative w-full" style={{ aspectRatio: "16 / 9" }}>
               <Image
                 src={landmark.imageUrl}
@@ -146,7 +148,7 @@ export default function Landmarks() {
                 className="object-cover rounded-t-lg"
               />
             </div>
-            {/* Yozuvlar */}
+
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{landmark.name}</h2>
               <p className="text-sm text-gray-600 mb-2">{landmark.location}</p>

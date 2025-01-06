@@ -18,7 +18,7 @@ const cities = [
 export default function Cities() {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-8">O'zbekiston Shaharlari</h1>
+      <h1 className="text-3xl font-bold mb-8">O&apos;zbekiston Shaharlari</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {cities.map((city) => (
           <div
